@@ -1,0 +1,8 @@
+{
+	"name" : "Gandalf",
+	"autoload" : {
+		"psr-0": {
+			"" : "src/"
+		}
+	}
+}
