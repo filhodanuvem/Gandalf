@@ -1,12 +1,14 @@
 Gandalf 
 ====================
 
-(Gandalf is a (crazy) php library that handles functions.)
-Galdalf is a wizzard, its play with functions, doing magic. 
+Gandalf is a (crazy) php library that handles functions.
+
+# Where use?
 - php5.4+ 
+- Where there are courageous people
 
 
-## Why? 
+## Why use? 
 As we know, our prefer language has object
 semi opened, I mean, we can define instance fields in execution time, see below: 
 
@@ -95,10 +97,10 @@ note that `$this->_1` is a group var regex. You could too use var `$this->matche
 
 **Important**: $this is other context, and dont current.
 
-```
+```php
 <?php 
 $legolas = new Elf;
-$legolas->def('findByfind(One){0,1}By([A-Z][a-z]+)', function($value){
+$legolas->def('findBy(One){0,1}By([A-Z][a-z]+)', function($value){
     var_dump($this->matches);
 });
 
