@@ -3,12 +3,12 @@ Gandalf
 
 Gandalf is a (crazy) php library that handles functions.
 
-# Where use?
+### Where use?
 - php5.4+ 
 - Where there are courageous people
 
 
-## Why use? 
+### Why use? 
 As we know, our prefer language has object
 semi opened, I mean, we can define instance fields in execution time, see below: 
 
@@ -46,7 +46,7 @@ $legolas->attack(); // Fatal error: Call to undefined Elf::attack
 
 ```
 
-## How use it
+### How use it
 
 Use our trait:
 
@@ -67,7 +67,7 @@ $legolas->attack(); // Goooo! =)
 
 ```
 
-## Define function pattern
+### Define function pattern
 
 In Doctrine\ORM exists a method dynamic for search entities: 
 
@@ -109,7 +109,7 @@ $legolas->findOneByFamily('bilbo'); // "['findOneByFamily', null, 'Family']"
 
 ```
 
-## Creating shortcuts
+### Creating shortcuts
 
 Many times, we need write compound calls like 
 
