@@ -42,7 +42,7 @@ $legolas->attack = function () {
     echo 'Goooo!';
 };
 
-$legolas->attack(); // Fatal error: Call to undefined Elf::attack
+$legolas->attack(); // Fatal error: Call to undefined method Elf::attack()
 
 ```
 
@@ -80,7 +80,7 @@ $repository->findByPlace('Middle earth');
 
 ```
 
-with Gandalf you can write similars methods that use regex pattern, see below:
+with Gandalf you can write similar methods that use regex pattern, see below:
 
 ```php
 <?php
@@ -100,7 +100,7 @@ note that `$this->_1` is a group var regex. You could too use var `$this->matche
 ```php
 <?php 
 $legolas = new Elf;
-$legolas->def('findBy(One){0,1}By([A-Z][a-z]+)', function($value){
+$legolas->def('find(One){0,1}By([A-Z][a-z]+)', function($value){
     var_dump($this->matches);
 });
 
@@ -131,3 +131,7 @@ $foo->short('getSlug', [
         ]);
 $foo->getSlug('How use crazy Gandalf lib!'); // how-use-crazy-gandalf-lib
 ```
+
+### And...
+
+Contact-me on [twitter](http://twitter.com/cloudson) or [email](cloudson@outlook.com) if you want talk about this project. It would be awesome! 
