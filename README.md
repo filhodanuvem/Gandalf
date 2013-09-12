@@ -1,4 +1,4 @@
-Gandalf 
+Gandalf  [![Build Status](https://travis-ci.org/cloudson/Gandalf.png?branch=master)](https://travis-ci.org/cloudson/Gandalf)
 ====================
 
 Gandalf is a (crazy) php library that handles functions.
