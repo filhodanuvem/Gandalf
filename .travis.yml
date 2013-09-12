@@ -7,4 +7,4 @@ before_script:
    - php composer.phar install 
 script: 
    - cd ./tests/
-   - phpunit --bootstrap=../vendor/autoload.php . 
+   - phpunit --bootstrap=../vendor/autoload.php --coverage-text --colors . 
