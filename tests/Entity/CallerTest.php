@@ -1,8 +1,7 @@
 <?php
+require __DIR__.'/../Fixtures/Foo.php';
+require __DIR__.'/../Fixtures/Bar.php';
 
-namespace Gandalf\Tests\Entity;
-
-use Gandalf\Tests\Fixtures\Foo;
 use Gandalf\Helper;
 
 class CallerTest extends \PHPUnit_Framework_TestCase
@@ -220,7 +219,7 @@ class CallerTest extends \PHPUnit_Framework_TestCase
 			return 'Im invisible!';
 		};
 
-		$bar = new \Gandalf\Tests\Fixtures\Bar; 
+		$bar = new Bar; 
 		$this->assertFalse(Helper::dynamic_method_exists('beInvisible', $bar));
 		
 		$foo->copy($foo->beInvisible, $bar);
@@ -237,7 +236,7 @@ class CallerTest extends \PHPUnit_Framework_TestCase
 			return 'Im invisible!';
 		};
 
-		$bar = new \Gandalf\Tests\Fixtures\Bar; 
+		$bar = new Bar; 
 		$this->assertFalse(Helper::dynamic_method_exists('beInvisible', $bar));
 		
 		$foo->move($foo->beInvisible, $bar);
