@@ -1,8 +1,15 @@
 {
 	"name" : "Gandalf",
+	"authors" : [
+	    {
+		"name": "Claudson Oliveira",
+                "email": "cloudson@outlook.com"
+	    }
+	],
 	"autoload" : {
 		"psr-0": {
-			"" : "src/"
+			"Gandalf" : "src/" ,
+			"Gandalf/Tests" : ""
 		}
 	}
 }
