@@ -134,4 +134,4 @@ $foo->getSlug('How use crazy Gandalf lib!'); // how-use-crazy-gandalf-lib
 
 ### And...
 
-Contact-me on [twitter](http://twitter.com/cloudson) or [email](cloudson@outlook.com) if you want talk about this project. It would be awesome! 
+Contact-me on [twitter](http://twitter.com/cloudson) or <cloudson@outlook.com> if you want talk about this project. It would be awesome! 
