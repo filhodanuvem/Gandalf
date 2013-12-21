@@ -27,7 +27,7 @@ var_dump($bilbo->hasRing); // true
 
 ```  
 
-But, we couldn't insert methods as a ruby language
+But, we couldn't insert methods as functional programming languages (javascript, ruby ...) 
 
 ```php
 <?php
@@ -74,7 +74,6 @@ In Doctrine\ORM exists a method dynamic for search entities:
 ```php
 <?php
 
-$repository = $entityManager->getRepositoy('FooBundle:bar');
 $repository->findOneByName('bar');
 $repository->findByPlace('Middle earth');
 
@@ -95,7 +94,7 @@ $legolas->findByName('bilbo'); // "return 'Find by Name'"
 ```
 note that `$this->_1` is a group var regex. You could too use var `$this->matches[1]`.
 
-**Important**: $this is other context, and dont current.
+**Important**: $this don't is the current context 
 
 ```php
 <?php 
@@ -131,6 +130,13 @@ $foo->short('getSlug', [
         ]);
 $foo->getSlug('How use crazy Gandalf lib!'); // how-use-crazy-gandalf-lib
 ```
+
+
+### Why you should be careful before uses this library on production.
+
+* Galdalf is a wizard, and wizards do magic. So, this library uses many php magic methods. The performance of the Galdalf can be a problem to your application. 
+* For now, it's possible create a function with invalid name. E.g; a regex '/[a-z]#[a-z]/' is acceptable, but you never will call $foo->a#a() . 
+* 
 
 ### And...
 
