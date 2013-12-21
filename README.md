@@ -141,3 +141,7 @@ $foo->getSlug('How use crazy Gandalf lib!'); // how-use-crazy-gandalf-lib
 ### And...
 
 Contact-me on [twitter](http://twitter.com/cloudson) or <cloudson@outlook.com> if you want talk about this project. It would be awesome! 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cloudson/gandalf/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
